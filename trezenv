@@ -1,0 +1,17 @@
+# deps
+fmt
+sdl3
+sdl3-image[png] 
+sdl3-image 
+sdl3-ttf 
+sdl2-mixer
+lua 
+glm 
+imgui 
+sol2
+
+# Literally just a comment
+
+# check available deps through vcpkg search or at their repository: https://vcpkg.io/en/packages
+
+# trezenv will support triplets in the future.

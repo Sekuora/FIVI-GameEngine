@@ -1,0 +1,23 @@
+#pragma once
+
+#include <glm/glm.hpp>
+
+using glm::vec2;
+
+struct TransformComponent
+{
+    vec2 position;
+    vec2 scale;
+    double rotation;
+
+    // Constructor
+    TransformComponent(
+        vec2 position = vec2(0.0, 0.0),
+        vec2 scale = vec2(1.0, 1.0),
+        double rotation = 0.0)
+    {
+        this->position = position;
+        this->scale = scale;
+        this->rotation = rotation;
+    }
+};
